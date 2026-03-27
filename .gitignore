@@ -1,0 +1,115 @@
+# ==============================
+
+# Python
+
+# ==============================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+
+venv/
+env/
+ENV/
+.venv/
+
+# ==============================
+
+# Jupyter Notebook
+
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+
+# Data Files (IMPORTANT)
+
+# ==============================
+
+# Ignore raw and processed data (optional - recommended for large files)
+
+data/raw/
+data/processed/
+
+# But keep small sample data if needed
+
+# !data/raw/sample.csv
+
+# ==============================
+
+# Environment Variables
+
+# ==============================
+
+.env
+
+# ==============================
+
+# Logs & Temporary Files
+
+# ==============================
+
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# ==============================
+
+# Model Files
+
+# ==============================
+
+*.pkl
+*.joblib
+*.h5
+
+# ==============================
+
+# IDE / Editor
+
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+
+# OS Files
+
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+
+# Build / Distribution
+
+# ==============================
+
+build/
+dist/
+*.egg-info/
+
+# ==============================
+
+# Coverage Reports
+
+# ==============================
+
+.coverage
+htmlcov/
+
+# ==============================
+
+# Misc
+
+# ==============================
+
+*.bak
+*.orig
